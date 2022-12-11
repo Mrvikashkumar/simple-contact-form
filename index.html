@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contect form</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <main class="main">
+    <h1>Dummy Contect Form</h1>
+    <form class="contect-form">
+      <div class="form-control">
+        <input type="text" id="first-name" class="name" required>
+        <label for="first-name" class="form-label">
+          <i class="fas fa-user"></i>First Name
+        </label>
+        <div class="ifNameInvalid">
+          <p>
+            <i class="fa fa-info"></i>
+            <span>Please enter name in valid format</span>
+            <span class="nameFormatMsg">first letter should be capital and rest of entire letter should be small.</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <input type="text" id="last-name" class="name" required>
+        <label for="last-name" class="form-label">
+          <i class="fas fa-user"></i>Last Name
+        </label>
+        <div class="ifNameInvalid">
+          <p>
+            <i class="fa fa-info"></i>
+            <span>Please enter name in valid format</span>
+            <span class="nameFormatMsg">first letter should be capital and rest of entire letter should be small.</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <input type="text" id="father-name" class="name" required>
+        <label for="father-name" class="form-label">
+          <i class="fas fa-user"></i>Father's Name
+        </label>
+        <div class="ifNameInvalid">
+          <p>
+            <i class="fa fa-info"></i>
+            <span>Please enter name in valid format</span>
+            <span class="nameFormatMsg">first letter should be capital and rest of entire letter should be small.</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <input type="text" id="mother-name" class="name" required>
+        <label for="mother-name" class="form-label">
+          <i class="fas fa-user"></i>Mother's Name
+        </label>
+        <div class="ifNameInvalid">
+          <p>
+            <i class="fa fa-info"></i>
+            <span>Please enter name in valid format</span>
+            <span class="nameFormatMsg">first letter should be capital and rest of entire letter should be small.</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <input type="number" id="phone-no" required>
+        <label for="phone-no" class="form-label">
+          <i class="fas fa-phone-square-alt"></i>Phone no
+        </label>
+        
+      </div>
+
+      <div class="form-control">
+        <input type="email" id="email" required>
+        <label for="email" class="form-label">
+          <i class="fas fa-envelope"></i>E-mail id
+        </label>
+      </div>
+
+      <div class="form-control">
+        <textarea id="massege" required></textarea>
+        <label for="massege" class="form-label">
+          <i class="fas fa-comment"></i>write your massege...
+        </label>
+      </div>
+
+      <div class="form-control">
+        <button type="submit" class="btn"><i class="fas fa-paper-plane"></i>submite</button>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
